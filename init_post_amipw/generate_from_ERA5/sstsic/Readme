@@ -1,0 +1,12 @@
+---------------------------------------------
+1 download grib data from ERA5  
+
+source ~/gaoj/bash_python.sh
+python get_era5_sstsic_MCS.py
+
+----------------------------------------------
+2 handle data to grist data
+
+./pre_process_new.sh 
+
+----------------------------------------------
